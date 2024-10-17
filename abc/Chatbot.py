@@ -18,6 +18,7 @@ while True :
         you = ""
 
     print("You: " + you)
+    
 
     if you == "":
         robot_brain = "I can't hear you, try again"
@@ -36,3 +37,6 @@ while True :
     engine = pyttsx3.init()
     engine.say(robot_brain)
     engine.runAndWait()
+
+
+print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"")
